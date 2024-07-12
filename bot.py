@@ -74,9 +74,8 @@ async def start():
     await TechVJBot.send_message(chat_id=LOG_CHANNEL, text=script.RESTART_TXT.format(today, time))
     app = web.AppRunner(await web_server())
     await app.setup()
-    #TODO Change to 0.0.0.0
-    bind_address = "127.0.0.1"
-    await web.TCPSite(app, bind_address, "5050").start()
+    bind_address = "0.0.0.0"
+    await web.TCPSite(app, bind_address, PORT).start()
     await idle()
 
 
