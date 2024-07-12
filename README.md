@@ -6,9 +6,11 @@
 </h1>
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+VJ+Filter+Bot!)
+
 </p>
 
-## Main Feature 
+## Main Feature
+
 <b>
   
 - [x] Premium Plan Feature 
@@ -29,13 +31,14 @@
 - [x] Token Verification 
 - [x] Send All Button 
 - [x] Custom Tutorial Button
-- [x] Bot Pm File Auto Delete 
+- [x] Bot Pm File Auto Delete
 
 Join My <a href='https://telegram.dog/vj_botz'>Update Channel</a> For More Update Regarding Repo.</b>
 
 ### How To Deploy : [Video Tutorial](https://youtu.be/J5tiWdc_AWM)
 
 ## Commands
+
 ```
 • /index - 𝑖𝑛𝑑𝑒𝑥 𝑓𝑖𝑙𝑒 𝑓𝑟𝑜𝑚 𝑦𝑜𝑢𝑟 𝑐ℎ𝑎𝑛𝑛𝑒𝑙
 • /logs - 𝑡𝑜 𝑔𝑒𝑡 𝑡ℎ𝑒 𝑟𝑒𝑐𝑒𝑛𝑡 𝑒𝑟𝑟𝑜𝑟𝑠
@@ -57,7 +60,7 @@ Join My <a href='https://telegram.dog/vj_botz'>Update Channel</a> For More Updat
 • /start - 𝑇𝑜 𝑠𝑡𝑎𝑟𝑡 𝑡ℎ𝑒 𝑏𝑜𝑡
 • /setskip - 𝑇𝑜 𝑠𝑘𝑖𝑝 𝑛𝑢𝑚𝑏𝑒𝑟 𝑜𝑓 𝑚𝑒𝑠𝑠𝑎𝑔𝑒𝑠 𝑤ℎ𝑒𝑛 𝑖𝑛𝑑𝑒𝑥𝑖𝑛𝑔 𝑓𝑖𝑙𝑒𝑠
 • /users - 𝑡𝑜 𝑔𝑒𝑡 𝑙𝑖𝑠𝑡 𝑜𝑓 𝑚𝑦 𝑢𝑠𝑒𝑟𝑠 𝑎𝑛𝑑 𝑖𝑑𝑠.
-• /chats - 𝑡𝑜 𝑔𝑒𝑡 𝑙𝑖𝑠𝑡 𝑜𝑓 𝑡ℎ𝑒 𝑚𝑦 𝑐ℎ𝑎𝑡𝑠 𝑎𝑛𝑑 𝑖𝑑𝑠 
+• /chats - 𝑡𝑜 𝑔𝑒𝑡 𝑙𝑖𝑠𝑡 𝑜𝑓 𝑡ℎ𝑒 𝑚𝑦 𝑐ℎ𝑎𝑡𝑠 𝑎𝑛𝑑 𝑖𝑑𝑠
 • /leave  - 𝑡𝑜 𝑙𝑒𝑎𝑣𝑒 𝑓𝑟𝑜𝑚 𝑎 𝑐ℎ𝑎𝑡.
 • /disable  -  𝑑𝑜 𝑑𝑖𝑠𝑎𝑏𝑙𝑒 𝑎 𝑐ℎ𝑎𝑡.
 • /enable - 𝑟𝑒-𝑒𝑛𝑎𝑏𝑙𝑒 𝑐ℎ𝑎𝑡.
@@ -106,25 +109,26 @@ Join My <a href='https://telegram.dog/vj_botz'>Update Channel</a> For More Updat
 ## Variables
 
 ### Required Variables
-* <b>`BOT_TOKEN`: Create a bot using [@BotFather](https://telegram.dog/BotFather), and get the Telegram API token.
-* `API_ID`: Get this value from [telegram.org](https://my.telegram.org/apps)
-* `API_HASH`: Get this value from [telegram.org](https://my.telegram.org/apps)
-* `CHANNELS`: Username or ID of channel or group. Separate multiple IDs by space
-* `ADMINS`: Username or ID of Admin. Separate multiple Admins by space
-* `DATABASE_URI`: [mongoDB](https://www.mongodb.com) URI. Get this value from [mongoDB](https://www.mongodb.com). For more help watch this [video](https://youtu.be/I36_OTWvT2w)
-* `DATABASE_NAME`: Name of the database in [mongoDB](https://www.mongodb.com).
-* `LOG_CHANNEL` : A channel to log the activities of bot. Make sure bot is an admin in the channel.</b>
+
+- <b>`BOT_TOKEN`: Create a bot using [@BotFather](https://telegram.dog/BotFather), and get the Telegram API token.
+- `API_ID`: Get this value from [telegram.org](https://my.telegram.org/apps)
+- `API_HASH`: Get this value from [telegram.org](https://my.telegram.org/apps)
+- `CHANNELS`: Username or ID of channel or group. Separate multiple IDs by space
+- `ADMINS`: Username or ID of Admin. Separate multiple Admins by space
+- `DATABASE_URI`: [mongoDB](https://www.mongodb.com) URI. Get this value from [mongoDB](https://www.mongodb.com). For more help watch this [video](https://youtu.be/I36_OTWvT2w)
+- `DATABASE_NAME`: Name of the database in [mongoDB](https://www.mongodb.com).
+- `LOG_CHANNEL` : A channel to log the activities of bot. Make sure bot is an admin in the channel.</b>
 
 ### Optional Variables
-* <b>`PICS`: Telegraph links of images to show in start message.( Multiple images can be used separated by space )
-* `FILE_STORE_CHANNEL`: Channel from were file store links of posts should be made.Separate multiple IDs by space
-* Check [info.py](https://github.com/VJBots/VJ-Filter-Bot/blob/Tech_VJ/info.py) for more optional variables.</b>
 
+- <b>`PICS`: Telegraph links of images to show in start message.( Multiple images can be used separated by space )
+- `FILE_STORE_CHANNEL`: Channel from were file store links of posts should be made.Separate multiple IDs by space
+- Check [info.py](https://t.me/namaste_cineverse/blob/Tech_VJ/info.py) for more optional variables.</b>
 
 <details><summary><b>Deploy To Heroku</b></summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/VJBots/VJ-Filter-Bot">
+<a href="https://heroku.com/deploy?template=https://t.me/namaste_cineverse">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy To Heroku">
 </a>
 </p>
@@ -137,6 +141,7 @@ Join My <a href='https://telegram.dog/vj_botz'>Update Channel</a> For More Updat
 <br>
 
 [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/VJBots/VJ-Filter-Bot&branch=Tech_VJ&name=VJ-Filter-Bot)
+
 </details>
 
 <details><summary><b>Deploy To Render</b></summary>
@@ -163,15 +168,14 @@ Use these settings when adding a monitor:</b>
 <b>Click on the below button to deploy directly to render ↓</b>
 <br>
 <br>
-<a href="https://render.com/deploy?repo=https://github.com/VJBots/VJ-Filter-Bot/tree/Tech_VJ">
+<a href="https://render.com/deploy?repo=https://t.me/namaste_cineverse/tree/Tech_VJ">
 <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
 </a>
 </details>
 
 <details><summary><b>Deploy To VPS</summary>
 
-
-`git clone https://github.com/VJBots/VJ-Filter-Bot`
+`git clone https://t.me/namaste_cineverse`
 
 Install Packages
 
@@ -186,25 +190,26 @@ Edit info.py with variables as given below then run bot
 
 <hr>
 
+## Thanks to
 
-## Thanks to 
- - <b>Thanks To [Pyrogram Library](https://github.com/pyrogram/pyrogram) & [Pyrofork Library](https://github.com/Mayuri-Chan/pyrofork)
- - Thanks To [Tech VJ](https://youtube.com/@Tech_VJ) To Modify And Add Amazing Feature In The Repo
- - Thanks To [Eva Marie](https://t.me/TeamEvamaria) For Base Repo
- - Thanks To All Everyone In This Journey</b>
+- <b>Thanks To [Pyrogram Library](https://github.com/pyrogram/pyrogram) & [Pyrofork Library](https://github.com/Mayuri-Chan/pyrofork)
+- Thanks To [Tech VJ](https://youtube.com/@Tech_VJ) To Modify And Add Amazing Feature In The Repo
+- Thanks To [Eva Marie](https://t.me/TeamEvamaria) For Base Repo
+- Thanks To All Everyone In This Journey</b>
 
 ## Note 🏷️
- 
-* [![Contact Developer](https://img.shields.io/static/v1?label=Contact+Developer&message=On+Telegram&color=critical)](https://telegram.me/KingVJ01)
 
-<b>[Note To A So Called Dev](https://telegram.dog/vj_botz): 
+- [![Contact Developer](https://img.shields.io/static/v1?label=Contact+Developer&message=On+Telegram&color=critical)](https://telegram.me/Namaste_CineVerse_Bot)
+
+<b>[Note To A So Called Dev](https://telegram.dog/vj_botz):
 
 Fork The Repo And Edit As Per Your Needs.</b>
 
 ## Disclaimer
-[![GNU Affero General Public License 2.0](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)    
-<b>Licensed under [GNU AGPL 2.0.](https://github.com/VJBots/VJ-Filter-Bot/blob/Tech_VJ/LICENSE)
-Selling The Codes To Other People For Money Is *Strictly Prohibited*.</b>
+
+[![GNU Affero General Public License 2.0](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)  
+<b>Licensed under [GNU AGPL 2.0.](https://t.me/namaste_cineverse/blob/Tech_VJ/LICENSE)
+Selling The Codes To Other People For Money Is _Strictly Prohibited_.</b>
 
 </pre>
 </p>
