@@ -20,7 +20,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'ncfilesrobot')
 API_ID = int(environ.get('API_ID', '6053776'))
 API_HASH = environ.get('API_HASH', '7052763522d586b57310ae6919023ea5')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7355801203:AAEd6RVfPDTHTsaooUX03whFdPYn85rIDpM")
+BOT_TOKEN = environ.get('BOT_TOKEN', '7355801203:AAEd6RVfPDTHTsaooUX03whFdPYn85rIDpM')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
