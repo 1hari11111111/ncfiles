@@ -755,7 +755,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{me.username}?startgroup=true')
         ],[
-            InlineKeyboardButton('🕵️ ʜᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('🕵️ Other Features', callback_data='help'),
             InlineKeyboardButton('🔍 ᴀʙᴏᴜᴛ', callback_data='about')
         ]]
         if settings["update_channel_link"] != None:
@@ -765,7 +765,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "about":
         btn = [[
-            InlineKeyboardButton('🕵️ ʜᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('🕵️ Other Features', callback_data='help'),
             InlineKeyboardButton("🏡 ʜᴏᴍᴇ", callback_data="start")
         ]]
         await query.message.edit_text(text = script.CLONE_ABOUT_TXT.format(me.mention, temp.U_NAME, temp.B_NAME), reply_markup = InlineKeyboardMarkup(btn))
